@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Kaisei Decol";
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 129px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #102B34;
+    h1{
+        color: #D5D5D5;
+        font-family: "Kaisei Decol";
+        font-size: 75px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+    }
+}
+main{
+    margin:  72px auto;
+    width: 938px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 89px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+p{
+    color: #000;
+    font-family: "Kaisei Decol";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+.cont1{
+    width: 438px;
+    height: 547px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.p1{
+    width: 411px;
+}
